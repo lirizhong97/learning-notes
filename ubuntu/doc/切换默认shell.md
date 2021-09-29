@@ -1,0 +1,3 @@
+```
+sudo dpkg-reconfigure dash
+```
