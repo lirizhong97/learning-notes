@@ -1,4 +1,5 @@
 // https://github.com/microsoft/vscode-cmake-tools/blob/main/docs/debug-launch.md#debug-using-a-launchjson-file
+// 注意：观察vscode左下角有没有出现"(gdb) Launch"按钮，出现则可点击该按钮进行调试，该按钮支持调试运行并传入命令行参数
 
 {
     "version": "0.2.0",
