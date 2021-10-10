@@ -57,5 +57,21 @@
         "thread": "cpp",
         "cinttypes": "cpp",
         "typeinfo": "cpp"
-    }
+    },
+    "cmake.buildArgs": [
+
+    ],
+    "cmake.configureArgs": [
+        "-DBUILD_CONFIG=mysql_release",
+        "-DDOWNLOAD_BOOST=1",
+        "-DWITH_BOOST=../boost",
+        "-DWITH_DEBUG=ON",
+        "-DWITH_INNODB_EXTRA_DEBUG=ON",
+        "-DENABLE_GPROF=ON",
+        "-DWITH_SYSTEMD=ON",
+        "-DNDEBUG=0",
+        "-DCMAKE_BUILD_TYPE=Debug",
+        "-DENABLED_PROFILING=ON"        
+    ],
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
 }
